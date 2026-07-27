@@ -1,96 +1,448 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Yash Thakre | Portfolio</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Header -->
-    <header>
-        <nav>
-            <h2>Yash Thakre</h2>
+    <!-- =========================
+         NAVBAR
+    ========================== -->
 
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            Yash<span>.</span>
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
+
+        <a href="#contact" class="nav-btn">
+            Let's Talk
+        </a>
+
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
 
-        <h1>Hello, I'm Yash Thakre 👋</h1>
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
 
-        <h3>B.Tech Information Technology Graduate</h3>
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="intro">HELLO, I'M</p>
+
+            <h1>
+                Yash <span>Thakre</span>
+            </h1>
+
+            <h2><span id="typing"></span></h2>
+
+            <p class="description">
+                Passionate B.Tech Information Technology graduate who enjoys
+                creating modern, responsive and user-friendly websites using
+                HTML, CSS and JavaScript.
+            </p>
+
+            <div class="hero-btn">
+
+                <a href="resume.pdf.pdf" class="btn" 
+                download>
+                    Download Resume
+                </a>
+
+                <a href="#projects" class="btn2">
+                    View Projects
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="circle">
+
+                <img src="profile.png" alt="Yash Thakre">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT SECTION
+    ========================== -->
+
+    <section class="about hidden" id="about">
+
+        <div class="about-content">
+
+            <p class="section-tag">
+                ABOUT ME
+            </p>
+
+            <h2>
+                Turning Ideas Into
+                <span>Digital Experiences.</span>
+            </h2>
+
+            <p>
+                I am Yash Thakre, a B.Tech Information Technology graduate
+                with an interest in web development and software technologies.
+                I enjoy building clean, responsive and user-friendly web
+                experiences while continuously learning new technologies.
+            </p>
+
+            <p>
+                I am currently focused on improving my frontend development
+                skills and building practical projects that help me grow
+                as a developer.
+            </p>
+
+        </div>
+
+
+        <div class="about-cards">
+
+            <div class="info-card">
+
+                <span>🎓</span>
+
+                <h3>B.Tech IT</h3>
+
+                <p>
+                    Information Technology Graduate
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span>💻</span>
+
+                <h3>Developer</h3>
+
+                <p>
+                    HTML • CSS • JavaScript
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span>🚀</span>
+
+                <h3>Projects</h3>
+
+                <p>
+                    Building practical web projects
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SKILLS SECTION
+    ========================== -->
+
+    <section class="skills hidden" id="skills">
+
+        <div class="skills-heading">
+
+            <p class="section-tag">
+                MY SKILLS
+            </p>
+
+            <h2>
+                Technologies I
+                <span>Work With.</span>
+            </h2>
+
+            <p>
+                These are the technologies and tools I am currently learning
+                and using to build practical projects.
+            </p>
+
+        </div>
+
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    HTML
+                </div>
+
+                <h3>HTML</h3>
+
+                <p>
+                    Building structured and semantic web pages.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    CSS
+                </div>
+
+                <h3>CSS</h3>
+
+                <p>
+                    Creating responsive and modern user interfaces.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    JS
+                </div>
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    Adding interactive features to websites.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    PY
+                </div>
+
+                <h3>Python</h3>
+
+                <p>
+                    Working with programming and problem solving.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    JAVA
+                </div>
+
+                <h3>Java</h3>
+
+                <p>
+                    Understanding object-oriented programming.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    SQL
+                </div>
+
+                <h3>MySQL</h3>
+
+                <p>
+                    Working with databases and SQL queries.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS SECTION
+    ========================== -->
+
+    <section class="projects hidden" id="projects">
+
+        <div class="projects-heading">
+
+            <p class="section-tag">
+                MY PROJECTS
+            </p>
+
+            <h2>
+                Things I've
+                <span>Built.</span>
+            </h2>
+
+            <p>
+                A collection of projects created while learning
+                and improving my development skills.
+            </p>
+
+        </div>
+
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A modern responsive portfolio website built
+                    using HTML, CSS and JavaScript.
+                </p>
+
+                <div class="project-tech">
+                    HTML • CSS • JavaScript
+                </div>
+
+                <a href="#" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <h3>To-Do Application</h3>
+
+                <p>
+                    A simple task management application with
+                    interactive features and local storage.
+                </p>
+
+                <div class="project-tech">
+                    HTML • CSS • JavaScript
+                </div>
+
+                <a href="#" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <h3>GitHub Profile Finder</h3>
+
+                <p>
+                    A web application that fetches and displays
+                    GitHub profile information using an API.
+                </p>
+
+                <div class="project-tech">
+                    HTML • CSS • JavaScript • API
+                </div>
+
+                <a href="#" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT SECTION
+    ========================== -->
+
+    <section class="contact hidden" id="contact">
+
+        <div class="contact-content">
+
+            <p class="section-tag">
+                CONTACT
+            </p>
+
+            <h2>
+                Let's Build Something
+                <span>Great Together.</span>
+            </h2>
+
+            <p>
+                Have a project idea or an opportunity?
+                Feel free to get in touch with me.
+            </p>
+
+            <a href="mailto:your-email@gmail.com" class="contact-btn">
+                Get In Touch
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
 
         <p>
-            Passionate Web Developer and IT Graduate who enjoys
-            building modern, responsive and user-friendly websites.
+            © 2026 Yash Thakre. All Rights Reserved.
         </p>
-
-        <button>Download Resume</button>
-
-    </section>
-
-    <!-- About -->
-    <section id="about">
-        <h2>About Me</h2>
 
         <p>
-            I am a B.Tech Information Technology graduate.
-            I enjoy learning new technologies and creating web
-            applications that solve real-world problems.
+            Built with HTML, CSS & JavaScript.
         </p>
 
-    </section>
+    </footer>
 
-    <!-- Skills -->
-    <section id="skills">
 
-        <h2>Skills</h2>
-
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>MySQL</li>
-            <li>Git & GitHub</li>
-        </ul>
-
-    </section>
-
-    <!-- Projects -->
-    <section id="projects">
-
-        <h2>Projects</h2>
-
-        <p>
-            Projects will be added here.
-        </p>
-
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-
-        <h2>Contact Me</h2>
-
-        <p>Email: thakreyash2005@gmail.com</p>
-
-        <p>GitHub: github.com/yashthakre05</p>
-
-    </section>
-
+    <!-- JavaScript -->
     <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 </body>
+
 </html>
