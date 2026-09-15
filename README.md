@@ -6,9 +6,19 @@ I'm Yash Thakre, a B.Tech Information Technology graduate with an interest in te
 
 This portfolio showcases my skills, projects, and professional journey.
 
-🌐 Live Portfolio
+## 📸 Portfolio Preview
 
-🔗 "View My Portfolio" (https://yashthakre05.github.io/syntent-task1-portfolio-yash/)
+### 🏠 Profile
+![Profile](profile-details.jpeg)
+
+### 👨‍💻 About Me
+![About Me](about-me.jpeg)
+
+### 🛠️ Skills
+![Skills](skills.jpeg)
+
+### 🚀 Projects
+![Projects](projects.jpeg)
 
 🛠️ Technologies Used
 
