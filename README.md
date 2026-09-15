@@ -18,7 +18,7 @@ This portfolio showcases my skills, projects, and professional journey.
 ![Skills](skills.jpeg.png)
 
 ### 🚀 Projects
-![Projects](projects.jpeg.png)
+![Projects](project.jpeg.png)
 
 🛠️ Technologies Used
 
