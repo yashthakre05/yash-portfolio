@@ -9,16 +9,16 @@ This portfolio showcases my skills, projects, and professional journey.
 ## 📸 Portfolio Preview
 
 ### 🏠 Profile
-![Profile](profile-details.jpeg)
+![Profile](profile-details.jpeg.png)
 
 ### 👨‍💻 About Me
-![About Me](about-me.jpeg)
+![About Me](about-me.jpeg.png)
 
 ### 🛠️ Skills
-![Skills](skills.jpeg)
+![Skills](skills.jpeg.png)
 
 ### 🚀 Projects
-![Projects](projects.jpeg)
+![Projects](projects.jpeg.png)
 
 🛠️ Technologies Used
 
