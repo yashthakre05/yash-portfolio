@@ -46,12 +46,19 @@ This portfolio showcases my skills, projects, and professional journey.
 
 yash-portfolio/
 │
+
 ├── index.html
+
 ├── css/
+
 ├── js/
+
 ├── assets/
+
 ├── profile.png
+
 ├── resume.pdf.pdf
+
 └── README.md
 
 🚀 Getting Started
